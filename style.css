@@ -1,6 +1,3 @@
-.headerFooter--bgcolor {
-  background-color: tomato !important; }
-
 body {
   padding-top: 30px; }
 
@@ -9,6 +6,10 @@ body {
 
 p {
   text-align: justify; }
+
+.foto-fullwidth {
+  width: 100%;
+  height: auto; }
 
 .navbar {
   display: grid;
@@ -27,18 +28,21 @@ p {
   margin-left: 2rem;
   margin-right: 2rem; }
 
-.foto-fullwidth {
-  width: 100%;
-  height: auto; }
-
 .menu--link {
   color: black;
   background-color: #adacac; }
 
 footer {
-  background-color: black;
+  background-color: #343a40;
   color: white;
   width: 100%; }
+
+.footer__redesSociales {
+  transition: all 2s;
+  margin-right: 4%; }
+
+.footer__redesSociales:hover {
+  transform: scale(2, 2); }
 
 .fotosFelino {
   height: 53vh;
@@ -47,13 +51,6 @@ footer {
 .fotoVariedadFelino {
   height: 40vh;
   width: auto; }
-
-.footer__redesSociales {
-  transition: all 2s;
-  margin-right: 4%; }
-
-.footer__redesSociales:hover {
-  transform: scale(2, 2); }
 
 .agrandar {
   transition: all 2s; }
