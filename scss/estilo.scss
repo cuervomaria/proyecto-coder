@@ -49,6 +49,7 @@ p{
 .menu--link{
     color: white;
     background-color:$color-fondo;
+    
 }
 
 //FOOTER
@@ -56,6 +57,7 @@ p{
     background-color: $color-fondo;
     color: white;
     width:100%;
+ 
 }
 
 
@@ -74,6 +76,17 @@ p{
 #fotosFelino{
     height:25.41979vh;
     padding-top: 2%;
+
+    div{
+        height: 100%;
+        div{
+            height:100%;
+            a{
+                height:100%;
+            }
+        }
+    }
+    
 
 }
 .fotosFelino{
