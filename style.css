@@ -1,8 +1,9 @@
 body {
-  padding-top: 30px; }
+  padding-top: 30px;
+  font-family: "Roboto"; }
 
 .container--margin {
-  margin-top: 15vh; }
+  margin-top: 57px; }
 
 p {
   text-align: justify; }
@@ -29,10 +30,10 @@ p {
   margin-right: 2rem; }
 
 .menu--link {
-  color: black;
-  background-color: #adacac; }
+  color: white;
+  background-color: #343a40; }
 
-footer {
+.footer__container {
   background-color: #343a40;
   color: white;
   width: 100%; }
@@ -44,8 +45,12 @@ footer {
 .footer__redesSociales:hover {
   transform: scale(2, 2); }
 
+#fotosFelino {
+  height: 25.41979vh;
+  padding-top: 2%; }
+
 .fotosFelino {
-  height: 53vh;
+  max-height: 100%;
   width: auto; }
 
 .fotoVariedadFelino {
@@ -58,3 +63,10 @@ footer {
 .agrandar:focus {
   font-size: 1.5rem;
   line-height: 2; }
+
+legend {
+  font-size: 1em; }
+
+@media only screen and (min-width: 992px) {
+  #fotosFelino {
+    height: 58.55vh; } }

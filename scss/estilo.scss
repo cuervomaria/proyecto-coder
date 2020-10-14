@@ -1,15 +1,16 @@
 
 $color-fondo:#343a40;
-$enable-responsive-font-sizes: true;
+$font-family-base:'Roboto';
 
 //COMUNES
 
 body{
     padding-top:30px;
+    font-family: $font-family-base;
 }
 
 .container--margin{
-    margin-top: 15vh;
+    margin-top: 57px;
 }
 
 p{
@@ -46,16 +47,18 @@ p{
 
 
 .menu--link{
-    color: black;
-    background-color: rgb(173, 172, 172);
+    color: white;
+    background-color:$color-fondo;
 }
 
 //FOOTER
-footer{
+.footer__container{
     background-color: $color-fondo;
     color: white;
     width:100%;
 }
+
+
 
 .footer__redesSociales{
     transition: all 2s;
@@ -67,8 +70,14 @@ footer{
 }
 
 //VINOS - FELINO
+
+#fotosFelino{
+    height:25.41979vh;
+    padding-top: 2%;
+
+}
 .fotosFelino{
-    height: 53vh;
+    max-height: 100%;
     width: auto;
 }
 
@@ -89,7 +98,18 @@ footer{
     line-height: 2;
 }
 
+legend {
+    font-size: 1em;
+}
 
+//landscape devices
+
+@media only screen and (min-width: 992px){
+    #fotosFelino{
+        height: 58.55vh;
+    }
+
+}
 
 
 
