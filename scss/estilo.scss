@@ -2,6 +2,13 @@
 $color-fondo:#343a40;
 $font-family-base:'Roboto';
 
+@mixin animacion {
+    opacity:0;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+}
+
 //COMUNES
 
 body{
@@ -127,6 +134,40 @@ legend {
         height: 58.55vh;
     }
 
+}
+
+//Animaciones Fotos
+
+.aparecer {
+    @include animacion();
+}
+
+.aparecer1{
+    @include animacion();
+}
+
+.aparecer2{
+    @include animacion();
+    animation-delay: 1s;
+}
+
+.aparecer3{
+    @include animacion();
+    animation-delay: 2s;
+}
+
+.aparecer4{
+    @include animacion();
+    animation-delay: 3s;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 

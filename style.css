@@ -80,3 +80,42 @@ legend {
 @media only screen and (min-width: 992px) {
   #fotosFelino {
     height: 58.55vh; } }
+
+.aparecer {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-fill-mode: forwards; }
+
+.aparecer1 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-fill-mode: forwards; }
+
+.aparecer2 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-fill-mode: forwards;
+  animation-delay: 1s; }
+
+.aparecer3 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-fill-mode: forwards;
+  animation-delay: 2s; }
+
+.aparecer4 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-fill-mode: forwards;
+  animation-delay: 3s; }
+
+@keyframes aparecer {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
